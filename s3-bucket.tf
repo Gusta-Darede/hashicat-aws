@@ -13,3 +13,4 @@ module "s3_bucket" {
     Department = "devops"
     Billable = "true"
   }
+}
