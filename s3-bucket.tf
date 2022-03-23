@@ -9,7 +9,7 @@ module "s3_bucket" {
     enabled = true
   }
   bucket_prefix = var.prefix
-  tag = {
+  tags = {
     Department = "devops"
     Billable = "true"
   }
